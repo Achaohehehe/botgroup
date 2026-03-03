@@ -12,7 +12,7 @@ export interface Group {
   name: string;
   description: string;
   members: string[];
-  isGroupDiscussionMode?: boolean;  // 可选，如果你需要这个属性
+  isGroupDiscussionMode?: boolean;  // 
 }
 
 export const groups: Group[] = [
