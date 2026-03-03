@@ -44,7 +44,6 @@ export interface AICharacter {
 }
 
 // 模型配置（不要动，保持原样）
-export const modelConfigs = [
   { model: "deepseek-chat", name: "DeepSeek Chat", provider: "deepseek" },
   // 如果你还配置了其他模型，可以保留；如果没有，就只留上面这一个
 ];
