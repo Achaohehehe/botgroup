@@ -4,24 +4,16 @@ export interface Group {
   name: string;
   description: string;
   members: string[];
-}
-
-//这里配置群聊的信息
-export interface Group {
-  id: string;
-  name: string;
-  description: string;
-  members: string[];
-  isGroupDiscussionMode?: boolean;  // 
+  isGroupDiscussionMode?: boolean;  // 加上这行，让 isGroupDiscussionMode 可选
 }
 
 export const groups: Group[] = [
   {
-    id: "hongdougao",                
-    name: "红豆糕",            
-    description: "我叫红豆糕，是沉舟动漫社专用的AI模型！欢迎亲友们友好讨论！",  
-    members: ["hongdougao"],         
-    isGroupDiscussionMode: true     
+    id: "hongdougao",
+    name: "红豆糕",
+    description: "我叫红豆糕，是沉舟动漫社专用的AI模型！欢迎亲友们友好讨论！",
+    members: ["hongdougao"],
+    isGroupDiscussionMode: true
   },
   {
     id: 'group1',
