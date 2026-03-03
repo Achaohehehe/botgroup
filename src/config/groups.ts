@@ -12,7 +12,7 @@ export const groups: Group[] = [
     id: "hongdougao",
     name: "红豆糕",
     description: "我叫红豆糕，是沉舟动漫社专用的AI模型！欢迎亲友们友好讨论！",
-    members: ["hongdougao"],
+    members: ["hongdougao"", "ai5"],
     isGroupDiscussionMode: true
   },
   {
